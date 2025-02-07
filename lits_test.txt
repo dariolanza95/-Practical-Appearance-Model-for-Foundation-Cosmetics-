@@ -1,0 +1,538 @@
+BSDFSampling.
+  Lambertian
+  TRCondIso
+  TRCondAniso
+  TRDielIso
+  TRDielAniso
+  TRDielIsoInv
+  TRDielAnisoInv
+BSDFEnergyConservation.
+  LambertianReflection
+Hair.
+  WhiteFurnace
+  HOnTheEdge
+  WhiteFurnaceSampled
+  SamplingWeights
+  SamplingConsistency
+Sinc.
+  ZeroHandling
+Filter.
+  ZeroPastRadius
+  Integral
+SpotLight.
+  Power
+  Sampling
+GoniometricLight.
+  Power
+  Sampling
+ProjectionLight.
+  Power
+  Sampling
+LightBounds.
+  Basics
+BVHLightSampling.
+  OneSpot
+  Point
+  PointVaryPower
+  OneTri
+  PdfMethod
+ExhaustiveLightSampling.
+  PdfMethod
+UniformLightSampling.
+  PdfMethod
+PowerLightSampling.
+  PdfMethod
+HenyeyGreenstein.
+  SamplingMatch
+  SamplingOrientationForward
+  SamplingOrientationBackward
+  Normalized
+  g
+Parser.
+  TokenizerBasics
+  TokenizerErrors
+  TokenizeFile
+Sampler.
+  ConsistentValues
+PaddedSobolSampler.
+  ElementaryIntervals
+ZSobolSampler.
+  ElementaryIntervals
+  ValidIndices
+SobolUnscrambledSampler.
+  ElementaryIntervals
+SobolXORScrambledSampler.
+  ElementaryIntervals
+SobolOwenScrambledSampler.
+  ElementaryIntervals
+PMJ02BNSampler.
+  ElementaryIntervals
+Triangle.
+  Reintersect
+  SolidAngle
+  BadCases
+FullSphere.
+  Reintersect
+ParialSphere.
+  Normal
+PartialSphere.
+  Reintersect
+Cylinder.
+  Reintersect
+BilinearPatch.
+  Offset
+Args.
+  Simple
+  Multiple
+  Bool
+  ErrorMissingValue
+  ErrorMissingValueEqual
+  ErrorBogusBool
+  Normalization
+BufferCache.
+  Basics
+RGBColorSpace.
+  RGBXYZ
+  sRGB
+  StdIllumWhitesRGB
+  StdIllumWhiteRec2020
+  StdIllumWhiteACES2065_1
+RGBUnboundedSpectrum.
+  MaxValue
+RGBAlbedoSpectrum.
+  MaxValue
+  RoundTripsRGB
+  RoundTripRec2020
+  RoundTripACES
+RGBIlluminantSpectrum.
+  RoundTripsRGB
+  RoundTripRec2020
+  RoundTripACES
+sRGB.
+  Conversion
+Array2D.
+  Basics
+  Bounds
+HashMap.
+  Basics
+  Randoms
+TypePack.
+  Index
+  HasType
+  TakeRemove
+  Map
+InternCache.
+  BasicString
+  BadHash
+File.
+  HasExtension
+  RemoveExtension
+  ReadWriteFile
+  Success
+  Failures
+FloatingPoint.
+  Pieces
+  NextUpDownFloat
+  NextUpDownDouble
+  FloatBits
+  DoubleBits
+  AtomicFloat
+Half.
+  Basics
+  ExactConversions
+  Randoms
+  NextUp
+  NextDown
+  Equal
+  RoundToNearestEven
+Hash.
+  VarArgs
+  Collisions
+  Unaligned
+Image.
+  Basics
+  GetSetY
+  GetSetRGB
+  GetSetBGR
+  CopyRectOut
+  CopyRectIn
+  PfmIO
+  ExrIO
+  ExrNoMetadata
+  ExrMetadata
+  PngYIO
+  PngRgbIO
+  PngEmojiIO
+  QoiRgbIO
+  QoiRgbaIO
+  SampleSimple
+  SampleLinear
+  SampleSinCos
+  Wrap2D
+  Select
+ImageIO.
+  RoundTripEXR
+  RoundTripPFM
+  RoundTripPNG
+  RoundTripQOI
+Pow2.
+  Basics
+RoundUpPow2.
+  Basics
+Morton2.
+  Basics
+Math.
+  Pow
+  NewtonBisection
+  EvaluatePolynomial
+  CompensatedSum
+  ErfInv
+  DifferenceOfProducts
+  SumOfProducts
+  GaussianIntegral
+  TwoProd
+  TwoSum
+  InnerProduct
+Log2Int.
+  Basics
+Log4Int.
+  Basics
+Pow4.
+  Basics
+NextPrime.
+  Basics
+FastExp.
+  Accuracy
+SquareMatrix.
+  Basics2
+  Basics3
+  Basics4
+  Inverse
+FindInterval.
+  Basics
+FloatInterval.
+  Abs
+  Sqrt
+  Add
+  Sub
+  Mul
+  Div
+  FMA
+  Sqr
+  SumSquares
+  DifferenceOfProducts
+  SumOfProducts
+PermutationElement.
+  Valid
+  Uniform
+  UniformDelta
+Parallel.
+  Basics
+  DoNothing
+  ForEachThread
+ThreadLocal.
+  Consistency
+StringPrintf.
+  Basics
+  FancyPctS
+  optional
+  FancyPctD
+  Precision
+OperatorLeftShiftPrint.
+  Basics
+Optional.
+  Basics
+  RunDestructors
+MonotonicBufferResource.
+  NoOverlap
+RNG.
+  Reseed
+  Advance
+  OperatorMinus
+  Int
+  Uint64
+  Double
+SampleDiscrete.
+  Basics
+  VsPiecewiseConstant1D
+Sampling.
+  InvertUniformHemisphere
+  InvertCosineHemisphere
+  InvertUniformSphere
+  InvertUniformTriangle
+  InvertUniformCone
+  InvertUniformDiskPolar
+  InvertUniformDiskConcentric
+  SphericalTriangle
+  SphericalTriangleInverse
+  SphericalQuad
+  SphericalQuadInverse
+  SmoothStep
+  Linear
+  Tent
+  CatmullRom
+  Bilinear
+  Logistic
+  TrimmedExponential
+  Normal
+  HGExtremes
+LowDiscrepancy.
+  RadicalInverse
+  SobolFirstDimension
+Sobol.
+  IntervalToIndex
+  IntervalToIndexRandoms
+PiecewiseConstant1D.
+  Continuous
+  Range
+  InverseUniform
+  InverseGeneral
+  InverseRandoms
+  Integral
+PiecewiseConstant2D.
+  InverseUniform
+  InverseRandoms
+  FromFuncLInfinity
+  Integral
+VarianceEstimator.
+  Zero
+  VsClosedForm
+  Merge
+  MergeTwo
+WeightedReservoir.
+  Basic
+  MergeReservoirs
+Generators.
+  Uniform1D
+  Uniform1DSeed
+  Uniform2D
+  Uniform2DSeed
+  Uniform3D
+  Stratified1D
+  Stratified2D
+  Stratified3D
+  Hammersley2D
+  Hammersley3D
+AliasTable.
+  Uniform
+  Varying
+SummedArea.
+  Constant
+  Rect
+  Randoms
+  NonCellAligned
+Spectrum.
+  Blackbody
+  XYZ
+  MaxValue
+  SamplingPdfY
+  SamplingPdfXYZ
+Spline.
+  BezierBounds
+Unicode.
+  BasicNormalization
+TaggedPointer.
+  Basics
+  Dispatch
+AnimatedTransform.
+  Randoms
+RotateFromTo.
+  Simple
+  Randoms
+Vector2.
+  Basics
+Vector3.
+  Basics
+Point2.
+  InvertBilinear
+Vector.
+  AngleBetween
+  CoordinateSystem
+Bounds2.
+  IteratorBasic
+  IteratorDegenerate
+  Union
+Bounds3.
+  PointDistance
+  Union
+EqualArea.
+  Randoms
+  RemapEdges
+DirectionCone.
+  UnionBasics
+  UnionRandoms
+  BoundBounds
+  VectorInCone
+SphericalTriangleArea.
+  Basics
+  RandomSampling
+PointVector.
+  Interval
+OctahedralVector.
+  EncodeDecode
+AnalyticTestScenes/RenderTest.
+  RadianceMatches/0  # GetParam() = Path, depth 8, Perspective, Halton, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/1  # GetParam() = Path, depth 8, Perspective, Padded Sobolspp, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/2  # GetParam() = Path, depth 8, Perspective, Z Sobol, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/3  # GetParam() = Path, depth 8, Perspective, Sobol Not Randomized, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/4  # GetParam() = Path, depth 8, Perspective, Sobol XOR Scramble, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/5  # GetParam() = Path, depth 8, Perspective, Sobol Owen Scramble, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/6  # GetParam() = Path, depth 8, Perspective, Independent, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/7  # GetParam() = Path, depth 8, Perspective, Stratified, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/8  # GetParam() = Path, depth 8, Perspective, PMJ02bn, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/9  # GetParam() = Path, depth 8, Ortho, Halton, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/10  # GetParam() = Path, depth 8, Ortho, Padded Sobolspp, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/11  # GetParam() = Path, depth 8, Ortho, Z Sobol, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/12  # GetParam() = Path, depth 8, Ortho, Sobol Not Randomized, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/13  # GetParam() = Path, depth 8, Ortho, Sobol XOR Scramble, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/14  # GetParam() = Path, depth 8, Ortho, Sobol Owen Scramble, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/15  # GetParam() = Path, depth 8, Ortho, Independent, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/16  # GetParam() = Path, depth 8, Ortho, Stratified, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/17  # GetParam() = Path, depth 8, Ortho, PMJ02bn, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/18  # GetParam() = VolPath, depth 8, Perspective, Halton, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/19  # GetParam() = VolPath, depth 8, Perspective, Padded Sobolspp, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/20  # GetParam() = VolPath, depth 8, Perspective, Z Sobol, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/21  # GetParam() = VolPath, depth 8, Perspective, Sobol Not Randomized, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/22  # GetParam() = VolPath, depth 8, Perspective, Sobol XOR Scramble, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/23  # GetParam() = VolPath, depth 8, Perspective, Sobol Owen Scramble, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/24  # GetParam() = VolPath, depth 8, Perspective, Independent, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/25  # GetParam() = VolPath, depth 8, Perspective, Stratified, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/26  # GetParam() = VolPath, depth 8, Perspective, PMJ02bn, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/27  # GetParam() = VolPath, depth 8, Ortho, Halton, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/28  # GetParam() = VolPath, depth 8, Ortho, Padded Sobolspp, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/29  # GetParam() = VolPath, depth 8, Ortho, Z Sobol, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/30  # GetParam() = VolPath, depth 8, Ortho, Sobol Not Randomized, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/31  # GetParam() = VolPath, depth 8, Ortho, Sobol XOR Scramble, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/32  # GetParam() = VolPath, depth 8, Ortho, Sobol Owen Scramble, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/33  # GetParam() = VolPath, depth 8, Ortho, Independent, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/34  # GetParam() = VolPath, depth 8, Ortho, Stratified, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/35  # GetParam() = VolPath, depth 8, Ortho, PMJ02bn, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/36  # GetParam() = SimplePath, depth 8, Perspective, Halton, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/37  # GetParam() = SimplePath, depth 8, Perspective, Padded Sobolspp, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/38  # GetParam() = SimplePath, depth 8, Perspective, Z Sobol, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/39  # GetParam() = SimplePath, depth 8, Perspective, Sobol Not Randomized, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/40  # GetParam() = SimplePath, depth 8, Perspective, Sobol XOR Scramble, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/41  # GetParam() = SimplePath, depth 8, Perspective, Sobol Owen Scramble, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/42  # GetParam() = SimplePath, depth 8, Perspective, Independent, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/43  # GetParam() = SimplePath, depth 8, Perspective, Stratified, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/44  # GetParam() = SimplePath, depth 8, Perspective, PMJ02bn, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/45  # GetParam() = BDPT, depth 8, Perspective, Halton, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/46  # GetParam() = BDPT, depth 8, Perspective, Padded Sobolspp, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/47  # GetParam() = BDPT, depth 8, Perspective, Z Sobol, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/48  # GetParam() = BDPT, depth 8, Perspective, Sobol Not Randomized, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/49  # GetParam() = BDPT, depth 8, Perspective, Sobol XOR Scramble, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/50  # GetParam() = BDPT, depth 8, Perspective, Sobol Owen Scramble, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/51  # GetParam() = BDPT, depth 8, Perspective, Independent, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/52  # GetParam() = BDPT, depth 8, Perspective, Stratified, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/53  # GetParam() = BDPT, depth 8, Perspective, PMJ02bn, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/54  # GetParam() = MLT, depth 8, Perspective, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/55  # GetParam() = Path, depth 8, Perspective, Halton, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/56  # GetParam() = Path, depth 8, Perspective, Padded Sobolspp, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/57  # GetParam() = Path, depth 8, Perspective, Z Sobol, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/58  # GetParam() = Path, depth 8, Perspective, Sobol Not Randomized, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/59  # GetParam() = Path, depth 8, Perspective, Sobol XOR Scramble, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/60  # GetParam() = Path, depth 8, Perspective, Sobol Owen Scramble, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/61  # GetParam() = Path, depth 8, Perspective, Independent, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/62  # GetParam() = Path, depth 8, Perspective, Stratified, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/63  # GetParam() = Path, depth 8, Perspective, PMJ02bn, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/64  # GetParam() = Path, depth 8, Ortho, Halton, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/65  # GetParam() = Path, depth 8, Ortho, Padded Sobolspp, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/66  # GetParam() = Path, depth 8, Ortho, Z Sobol, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/67  # GetParam() = Path, depth 8, Ortho, Sobol Not Randomized, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/68  # GetParam() = Path, depth 8, Ortho, Sobol XOR Scramble, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/69  # GetParam() = Path, depth 8, Ortho, Sobol Owen Scramble, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/70  # GetParam() = Path, depth 8, Ortho, Independent, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/71  # GetParam() = Path, depth 8, Ortho, Stratified, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/72  # GetParam() = Path, depth 8, Ortho, PMJ02bn, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/73  # GetParam() = VolPath, depth 8, Perspective, Halton, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/74  # GetParam() = VolPath, depth 8, Perspective, Padded Sobolspp, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/75  # GetParam() = VolPath, depth 8, Perspective, Z Sobol, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/76  # GetParam() = VolPath, depth 8, Perspective, Sobol Not Randomized, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/77  # GetParam() = VolPath, depth 8, Perspective, Sobol XOR Scramble, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/78  # GetParam() = VolPath, depth 8, Perspective, Sobol Owen Scramble, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/79  # GetParam() = VolPath, depth 8, Perspective, Independent, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/80  # GetParam() = VolPath, depth 8, Perspective, Stratified, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/81  # GetParam() = VolPath, depth 8, Perspective, PMJ02bn, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/82  # GetParam() = VolPath, depth 8, Ortho, Halton, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/83  # GetParam() = VolPath, depth 8, Ortho, Padded Sobolspp, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/84  # GetParam() = VolPath, depth 8, Ortho, Z Sobol, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/85  # GetParam() = VolPath, depth 8, Ortho, Sobol Not Randomized, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/86  # GetParam() = VolPath, depth 8, Ortho, Sobol XOR Scramble, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/87  # GetParam() = VolPath, depth 8, Ortho, Sobol Owen Scramble, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/88  # GetParam() = VolPath, depth 8, Ortho, Independent, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/89  # GetParam() = VolPath, depth 8, Ortho, Stratified, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/90  # GetParam() = VolPath, depth 8, Ortho, PMJ02bn, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/91  # GetParam() = SimplePath, depth 8, Perspective, Halton, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/92  # GetParam() = SimplePath, depth 8, Perspective, Padded Sobolspp, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/93  # GetParam() = SimplePath, depth 8, Perspective, Z Sobol, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/94  # GetParam() = SimplePath, depth 8, Perspective, Sobol Not Randomized, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/95  # GetParam() = SimplePath, depth 8, Perspective, Sobol XOR Scramble, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/96  # GetParam() = SimplePath, depth 8, Perspective, Sobol Owen Scramble, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/97  # GetParam() = SimplePath, depth 8, Perspective, Independent, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/98  # GetParam() = SimplePath, depth 8, Perspective, Stratified, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/99  # GetParam() = SimplePath, depth 8, Perspective, PMJ02bn, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/100  # GetParam() = BDPT, depth 8, Perspective, Halton, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/101  # GetParam() = BDPT, depth 8, Perspective, Padded Sobolspp, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/102  # GetParam() = BDPT, depth 8, Perspective, Z Sobol, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/103  # GetParam() = BDPT, depth 8, Perspective, Sobol Not Randomized, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/104  # GetParam() = BDPT, depth 8, Perspective, Sobol XOR Scramble, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/105  # GetParam() = BDPT, depth 8, Perspective, Sobol Owen Scramble, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/106  # GetParam() = BDPT, depth 8, Perspective, Independent, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/107  # GetParam() = BDPT, depth 8, Perspective, Stratified, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/108  # GetParam() = BDPT, depth 8, Perspective, PMJ02bn, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/109  # GetParam() = MLT, depth 8, Perspective, Sphere, 1 light, Kd = 0.5
+  RadianceMatches/110  # GetParam() = Path, depth 8, Perspective, Halton, Sphere, Kd = 0.5, Le = 0.5
+  RadianceMatches/111  # GetParam() = Path, depth 8, Perspective, Padded Sobolspp, Sphere, Kd = 0.5, Le = 0.5
+  RadianceMatches/112  # GetParam() = Path, depth 8, Perspective, Z Sobol, Sphere, Kd = 0.5, Le = 0.5
+  RadianceMatches/113  # GetParam() = Path, depth 8, Perspective, Sobol Not Randomized, Sphere, Kd = 0.5, Le = 0.5
+  RadianceMatches/114  # GetParam() = Path, depth 8, Perspective, Sobol XOR Scramble, Sphere, Kd = 0.5, Le = 0.5
+  RadianceMatches/115  # GetParam() = Path, depth 8, Perspective, Sobol Owen Scramble, Sphere, Kd = 0.5, Le = 0.5
+  RadianceMatches/116  # GetParam() = Path, depth 8, Perspective, Independent, Sphere, Kd = 0.5, Le = 0.5
+  RadianceMatches/117  # GetParam() = Path, depth 8, Perspective, Stratified, Sphere, Kd = 0.5, Le = 0.5
+  RadianceMatches/118  # GetParam() = Path, depth 8, Perspective, PMJ02bn, Sphere, Kd = 0.5, Le = 0.5
+  RadianceMatches/119  # GetParam() = Path, depth 8, Ortho, Halton, Sphere, Kd = 0.5, Le = 0.5
+  RadianceMatches/120  # GetParam() = Path, depth 8, Ortho, Padded Sobolspp, Sphere, Kd = 0.5, Le = 0.5
+  RadianceMatches/121  # GetParam() = Path, depth 8, Ortho, Z Sobol, Sphere, Kd = 0.5, Le = 0.5
+  RadianceMatches/122  # GetParam() = Path, depth 8, Ortho, Sobol Not Randomized, Sphere, Kd = 0.5, Le = 0.5
+  RadianceMatches/123  # GetParam() = Path, depth 8, Ortho, Sobol XOR Scramble, Sphere, Kd = 0.5, Le = 0.5
+  RadianceMatches/124  # GetParam() = Path, depth 8, Ortho, Sobol Owen Scramble, Sphere, Kd = 0.5, Le = 0.5
+  RadianceMatches/125  # GetParam() = Path, depth 8, Ortho, Independent, Sphere, Kd = 0.5, Le = 0.5
+  RadianceMatches/126  # GetParam() = Path, depth 8, Ortho, Stratified, Sphere, Kd = 0.5, Le = 0.5
+  RadianceMatches/127  # GetParam() = Path, depth 8, Ortho, PMJ02bn, Sphere, Kd = 0.5, Le = 0.5
+  RadianceMatches/128  # GetParam() = VolPath, depth 8, Perspective, Halton, Sphere, Kd = 0.5, Le = 0.5
+  RadianceMatches/129  # GetParam() = VolPath, depth 8, Perspective, Padded Sobolspp, Sphere, Kd = 0.5, Le = 0.5
+  RadianceMatches/130  # GetParam() = VolPath, depth 8, Perspective, Z Sobol, Sphere, Kd = 0.5, Le = 0.5
+  RadianceMatches/131  # GetParam() = VolPath, depth 8, Perspective, Sobol Not Randomized, Sphere, Kd = 0.5, Le = 0.5
+  RadianceMatches/132  # GetParam() = VolPath, depth 8, Perspective, Sobol XOR Scramble, Sphere, Kd = 0.5, Le = 0.5
+  RadianceMatches/133  # GetParam() = VolPath, depth 8, Perspective, Sobol Owen Scramble, Sphere, Kd = 0.5, Le = 0.5
+  RadianceMatches/134  # GetParam() = VolPath, depth 8, Perspective, Independent, Sphere, Kd = 0.5, Le = 0.5
+  RadianceMatches/135  # GetParam() = VolPath, depth 8, Perspective, Stratified, Sphere, Kd = 0.5, Le = 0.5
+  RadianceMatches/136  # GetParam() = VolPath, depth 8, Perspective, PMJ02bn, Sphere, Kd = 0.5, Le = 0.5
+  RadianceMatches/137  # GetParam() = VolPath, depth 8, Ortho, Halton, Sphere, Kd = 0.5, Le = 0.5
+  RadianceMatches/138  # GetParam() = VolPath, depth 8, Ortho, Padded Sobolspp, Sphere, Kd = 0.5, Le = 0.5
+  RadianceMatches/139  # GetParam() = VolPath, depth 8, Ortho, Z Sobol, Sphere, Kd = 0.5, Le = 0.5
+  RadianceMatches/140  # GetParam() = VolPath, depth 8, Ortho, Sobol Not Randomized, Sphere, Kd = 0.5, Le = 0.5
+  RadianceMatches/141  # GetParam() = VolPath, depth 8, Ortho, Sobol XOR Scramble, Sphere, Kd = 0.5, Le = 0.5
+  RadianceMatches/142  # GetParam() = VolPath, depth 8, Ortho, Sobol Owen Scramble, Sphere, Kd = 0.5, Le = 0.5
+  RadianceMatches/143  # GetParam() = VolPath, depth 8, Ortho, Independent, Sphere, Kd = 0.5, Le = 0.5
+  RadianceMatches/144  # GetParam() = VolPath, depth 8, Ortho, Stratified, Sphere, Kd = 0.5, Le = 0.5
+  RadianceMatches/145  # GetParam() = VolPath, depth 8, Ortho, PMJ02bn, Sphere, Kd = 0.5, Le = 0.5
+  RadianceMatches/146  # GetParam() = SimplePath, depth 8, Perspective, Halton, Sphere, Kd = 0.5, Le = 0.5
+  RadianceMatches/147  # GetParam() = SimplePath, depth 8, Perspective, Padded Sobolspp, Sphere, Kd = 0.5, Le = 0.5
+  RadianceMatches/148  # GetParam() = SimplePath, depth 8, Perspective, Z Sobol, Sphere, Kd = 0.5, Le = 0.5
+  RadianceMatches/149  # GetParam() = SimplePath, depth 8, Perspective, Sobol Not Randomized, Sphere, Kd = 0.5, Le = 0.5
+  RadianceMatches/150  # GetParam() = SimplePath, depth 8, Perspective, Sobol XOR Scramble, Sphere, Kd = 0.5, Le = 0.5
+  RadianceMatches/151  # GetParam() = SimplePath, depth 8, Perspective, Sobol Owen Scramble, Sphere, Kd = 0.5, Le = 0.5
+  RadianceMatches/152  # GetParam() = SimplePath, depth 8, Perspective, Independent, Sphere, Kd = 0.5, Le = 0.5
+  RadianceMatches/153  # GetParam() = SimplePath, depth 8, Perspective, Stratified, Sphere, Kd = 0.5, Le = 0.5
+  RadianceMatches/154  # GetParam() = SimplePath, depth 8, Perspective, PMJ02bn, Sphere, Kd = 0.5, Le = 0.5
+  RadianceMatches/155  # GetParam() = BDPT, depth 8, Perspective, Halton, Sphere, Kd = 0.5, Le = 0.5
+  RadianceMatches/156  # GetParam() = BDPT, depth 8, Perspective, Padded Sobolspp, Sphere, Kd = 0.5, Le = 0.5
+  RadianceMatches/157  # GetParam() = BDPT, depth 8, Perspective, Z Sobol, Sphere, Kd = 0.5, Le = 0.5
+  RadianceMatches/158  # GetParam() = BDPT, depth 8, Perspective, Sobol Not Randomized, Sphere, Kd = 0.5, Le = 0.5
+  RadianceMatches/159  # GetParam() = BDPT, depth 8, Perspective, Sobol XOR Scramble, Sphere, Kd = 0.5, Le = 0.5
+  RadianceMatches/160  # GetParam() = BDPT, depth 8, Perspective, Sobol Owen Scramble, Sphere, Kd = 0.5, Le = 0.5
+  RadianceMatches/161  # GetParam() = BDPT, depth 8, Perspective, Independent, Sphere, Kd = 0.5, Le = 0.5
+  RadianceMatches/162  # GetParam() = BDPT, depth 8, Perspective, Stratified, Sphere, Kd = 0.5, Le = 0.5
+  RadianceMatches/163  # GetParam() = BDPT, depth 8, Perspective, PMJ02bn, Sphere, Kd = 0.5, Le = 0.5
+  RadianceMatches/164  # GetParam() = MLT, depth 8, Perspective, Sphere, Kd = 0.5, Le = 0.5

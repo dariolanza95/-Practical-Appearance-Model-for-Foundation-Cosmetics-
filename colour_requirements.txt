@@ -1,0 +1,27 @@
+colour-science==0.4.3
+contourpy @ file:///opt/conda/conda-bld/contourpy_1663827406301/work
+cycler @ file:///tmp/build/80754af9/cycler_1637851556182/work
+fonttools==4.25.0
+imageio==2.32.0
+importlib-resources @ file:///croot/importlib_resources_1698254628495/work
+kiwisolver @ file:///croot/kiwisolver_1672387140495/work
+matplotlib @ file:///croot/matplotlib-suite_1698692105134/work
+mkl-fft @ file:///croot/mkl_fft_1695058164594/work
+mkl-random @ file:///croot/mkl_random_1695059800811/work
+mkl-service==2.4.0
+munkres==1.1.4
+numpy==1.26.2
+packaging @ file:///croot/packaging_1693575174725/work
+Pillow==10.0.1
+ply==3.11
+pyparsing @ file:///opt/conda/conda-bld/pyparsing_1661452539315/work
+PyQt5==5.15.10
+PyQt5-sip @ file:///croot/pyqt-split_1698769088074/work/pyqt_sip
+python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
+scipy==1.11.3
+sip @ file:///croot/sip_1698675935381/work
+six @ file:///tmp/build/80754af9/six_1644875935023/work
+tomli @ file:///opt/conda/conda-bld/tomli_1657175507142/work
+tornado @ file:///croot/tornado_1696936946304/work
+typing_extensions==4.8.0
+zipp @ file:///croot/zipp_1672387121353/work

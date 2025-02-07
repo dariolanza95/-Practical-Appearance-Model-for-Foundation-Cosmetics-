@@ -1,0 +1,12 @@
+ render_thickness_0_concentration_0.9393866709067191.exr elapsed time: 4.3842 seconds
+ render_thickness_1_concentration_0.9393866709067191.exr elapsed time: 4.4557 seconds
+ render_thickness_2_concentration_0.9393866709067191.exr elapsed time: 4.3924 seconds
+ render_thickness_0_concentration_0.9393866709067191.exr elapsed time: 4.2826 seconds
+ render_thickness_1_concentration_0.9393866709067191.exr elapsed time: 4.5914 seconds
+ render_thickness_2_concentration_0.9393866709067191.exr elapsed time: 4.4275 seconds
+ render_thickness_0_concentration_0.9393866709067191.exr elapsed time: 87.8441 seconds
+ render_thickness_1_concentration_0.9393866709067191.exr elapsed time: 52.9768 seconds
+ render_thickness_2_concentration_0.9393866709067191.exr elapsed time: 75.1397 seconds
+ render_thickness_0_concentration_0.9393866709067191.exr elapsed time: 82.7891 seconds
+ render_thickness_1_concentration_0.9393866709067191.exr elapsed time: 55.5141 seconds
+ render_thickness_2_concentration_0.9393866709067191.exr elapsed time: 72.4783 seconds

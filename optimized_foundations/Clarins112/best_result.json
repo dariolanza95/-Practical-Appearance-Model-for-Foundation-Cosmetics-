@@ -1,0 +1,25 @@
+{
+    "name": "clarins112",
+    "albedo_flake_r": 0.8,
+    "albedo_flake_g": 0.8,
+    "albedo_flake_b": 0.8,
+    "albedo_diff_r": 0.9776503440339727,
+    "albedo_diff_g": 0.9568040176794688,
+    "albedo_diff_b": 0.9074798723428612,
+    "surf_roughs": 0.0,
+    "thickness": 16.0,
+    "refl_levels": 0,
+    "means_or": 0.9016994374947427,
+    "stds_or": 1.590536512467403,
+    "mean_size": 0.0024479767941815713,
+    "stds_size": 0.0,
+    "ior": 1.0,
+    "diff_particles_percs": 0.9936048552028973,
+    "g1": -0.23606797749978992,
+    "g2": 0.7770876399966351,
+    "w_g": 0.20836560949118343,
+    "n_samples": [
+        128
+    ],
+    "distribution": "ggx"
+}

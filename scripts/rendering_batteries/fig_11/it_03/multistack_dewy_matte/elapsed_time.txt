@@ -1,0 +1,3 @@
+ render_thickness_0_concentration_0.9393866709067191.exr elapsed time: 18.2462 seconds
+ render_thickness_1_concentration_0.9393866709067191.exr elapsed time: 62.6822 seconds
+ render_thickness_2_concentration_0.9393866709067191.exr elapsed time: 34.6435 seconds

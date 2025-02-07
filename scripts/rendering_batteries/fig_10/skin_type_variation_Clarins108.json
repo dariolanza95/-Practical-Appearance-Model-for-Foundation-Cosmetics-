@@ -1,0 +1,32 @@
+{
+  "name": "roughconductor",
+  "concentration":[0.2943142955751231],
+  "mean":[0.21632945762673],
+  "incident_or":[0.0],
+  "sigma": [0.4939803387677775],
+  "g1": [-0.24848605001202745],
+  "albedo_flake": [[0.7,0.7,0.7]],
+  "albedo_diff": [[0.973, 0.749, 0.682]],
+  "g2": [-0.17750191823352499],
+  "w_g": [0.5], 
+  "thickness": [0.511965696804593],
+  "ior": [1.00],
+  "surf_rough": [0.0],
+  "albedo_map": ["./hand_textures/albedo_skin_type_II.tga"],
+  
+  "row_name": "albedo_map",
+  "row_label": "albedo_map",
+  
+  "column_name": "color",
+  "column_label": "color",
+ 
+  "experiment_name": "st_clarins108",
+  
+  "format_file": "pdf",
+  
+  "row_values": ["./hand_textures/albedo_skin_type_II_v02.tga","./hand_textures/albedo_skin_type_III_v02.tga","./hand_textures/albedo_skin_type_IV.tga","./hand_textures/albedo_skin_type_V.tga"],
+  "column_values":[ [[ 0.8810113269867233, 0.8401235347686994, 0.7959105535077072],[ 0.88054606968485742, 0.7788255425958495, 0.753947323633842]],[[ 0.8810113269867233, 0.8201235347686994, 0.7259105535077072],[ 0.8854606968485742, 0.66388255425958495, 0.5183947323633842]],[[ 0.53010113269867233, 0.5301235347686994, 0.4759105535077072],[ 0.6654606968485742, 0.3988255425958495, 0.2783947323633842]],[[ 0.43010113269867233, 0.4301235347686994, 0.3759105535077072],[ 0.5654606968485742, 0.2988255425958495, 0.2083947323633842]]],
+  
+  "plot_type": "table"
+}
+

@@ -1,0 +1,48 @@
+{
+  "name": "clarins105",
+  "concentration":[0.89193866709067191],
+  "mean":[1.4725644964620308],
+  "incident_or":[0.0],
+  "sigma": [0.13568653180669277],
+  "albedo_flake": [[0.7543425402775088,0.8587217870142408,0.9974820865065176]],
+  "albedo_diff": [[0.9929836652431908, 0.9830821700512307, 0.9497994445540997 ]],
+  
+
+  "g1": [0.5576201861195704],
+  "g2": [-0.23606797749978975], 
+  "w_g": [0.7],
+  "thickness": [0.1],
+
+  
+  "concentration_top":[0.9193866709067191],
+  "mean_top":[1.4725644964620308],
+  "incident_or_top":[0.0],
+  "sigma_top": [0.13568653180669277],
+  "albedo_flake_top": [[0.7543425402775088,0.8587217870142408,0.9974820865065176]],
+  "albedo_diff_top": [[0.9954606968485742, 0.6988255425958495, 0.7883947323633842 ]],
+  
+  "g1_top": [0.5576201861195704],
+  "g2_top": [-0.23606797749978975], 
+  "w_g_top": [0.7],
+
+  "thickness_top": [0.0],
+  
+  "ior": [1.00],
+  "surf_rough": [0.0],
+  
+  "row_name": "concentration",
+  "row_label": "concentration",
+  
+  "column_name": "thickness",
+  "column_label": "thickness",
+ 
+  "experiment_name": "multistack_dewy_dewy",
+  
+  "format_file": "pdf",
+  
+  "column_values": [0.0,0.25,0.35],
+  "row_values":[0.9393866709067191],
+  
+  "plot_type": "table"
+}
+

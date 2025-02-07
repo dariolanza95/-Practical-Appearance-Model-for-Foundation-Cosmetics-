@@ -1,0 +1,31 @@
+{
+  "name": "roughconductor",
+  "concentration":[0.5],
+  "mean":[0.0],
+  "incident_or":[0.0],
+  "sigma": [0.1],
+  "g1": [0.9],
+  "albedo_flake": [[0.7,0.7,0.7]],
+  "albedo_diff": [[0.973, 0.749, 0.682]],
+  "g2": [-0.9],
+  "w_g": [0.5], 
+  "thickness": [2.0],
+  "ior": [1.00],
+  "surf_rough": [0.0],
+  
+  "row_name": "thickness",
+  "row_label": "thickness",
+  
+  "column_name": "concentration",
+  "column_label": "concentration",
+ 
+  "experiment_name": "thickness_vs_concentration_sigma_0.1_g1_0.9_g2_-0.9_wg_0.5",
+  
+  "format_file": "pdf",
+  
+  "row_values": [0.1,0.5,2.0],
+  "column_values":[0.6,0.75,0.9,0.99],
+  
+  "plot_type": "table"
+}
+
