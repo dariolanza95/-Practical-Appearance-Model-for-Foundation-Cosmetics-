@@ -1,9 +1,13 @@
-# Cosmetic Project
+# Practical Appearance Model for Foundation Cosmetics 
 
 ## Intro
 
 Cosmetic products have found their place in various aspects of human life, yet their digital appearance reproduction has received little attention. We present an appearance model for cosmetics, in particular for foundation layers, that reproduces a range of existing appearances of foundation cosmetics: from a glossy to a matte to an almost velvety look. Our model is a multilayered BSDF that reproduces the stacking of multiple layers of cosmetics. Inspired by the microscopic particulates used in cosmetics, we model each individual layer as a stochastic participating medium with two types of scatterers that mimic the most prominent visual features of cosmetics: spherical diffusers, resulting in a uniform distribution of radiance; and platelets, responsible for the glossy look of certain cosmetics. We implement our model on top of the position-free Monte Carlo framework, that allows us to include multiple scattering. We validate our model against measured reflectance data, and demonstrate the versatility and expressiveness of our model by thoroughly exploring the range of appearances that it can produce. The full article can be found [here](https://graphics.unizar.es/projects/CosmeticsAppearance_2024/).
 
+[We propose a practical appearance model for foundation cosmetics that can be stacked on top of human skin. Left: Render of a
+white female character skin without makeup. Middle: We apply a foundation layer with a matte finish, which reduces the specular highlights,
+especially visible in the eye region and next to the nose, and slightly changes the skin color. Right: We apply an additional shinier layer
+adding a reddish tint to the cheek](teaser.jpeg)
 ## Installation
 
 Installation steps:
@@ -12,6 +16,7 @@ Installation steps:
 - Install the required python packages using: `pip install -r /path/to/requirements.txt`
 - Download PBRT-v4 from the (Github repository)[https://github.com/mmp/pbrt-v4].
 - Copy the content of the folder 'pbrt-v4-plugin/ and past it on the folder 'pbrt-v4' making sure to overwrite all duplicated files. Then compile the pbrt folder as usual: `mkdir build` </br> `cd build` </br> `cmake ..` </br> `make -j20` </br>
+- The scenes used for figure can be found (here)[https://github.com/mmp/pbrt-v4] 
 
 ## Figures reproduction
 
@@ -69,9 +74,7 @@ where input_file is the file named "best_result_model_sRGB.npy", which can be fo
 
 ## Contents
 
-\-*manuscript* stores the file used to generate the manuscript (.text files etc).
-\-*parameter_bound* holds the file used to bound the optimization script.
-\-*pbrt-v4-plugin* holds the files developed for this project.
-\-*scenes* holds the various .pbrt files, textures and meshes required to generate the figures.
-\-*scripts* holds the various utility scripts developed during this project.
-\-*DEPRECATED* stores the various old files, that might be useful (better keep them than throwing them, but most of the files there can be safely deleted, with no issues).
+- *parameter_bound* holds the file used to bound the optimization script.
+- *pbrt-v4-plugin* holds the files developed for this project.
+- *scenes* holds the various .pbrt files, textures and meshes required to generate the figures.
+- *scripts* holds the various utility scripts developed during this project.
