@@ -4,19 +4,22 @@
 
 Cosmetic products have found their place in various aspects of human life, yet their digital appearance reproduction has received little attention. We present an appearance model for cosmetics, in particular for foundation layers, that reproduces a range of existing appearances of foundation cosmetics: from a glossy to a matte to an almost velvety look. Our model is a multilayered BSDF that reproduces the stacking of multiple layers of cosmetics. Inspired by the microscopic particulates used in cosmetics, we model each individual layer as a stochastic participating medium with two types of scatterers that mimic the most prominent visual features of cosmetics: spherical diffusers, resulting in a uniform distribution of radiance; and platelets, responsible for the glossy look of certain cosmetics. We implement our model on top of the position-free Monte Carlo framework, that allows us to include multiple scattering. We validate our model against measured reflectance data, and demonstrate the versatility and expressiveness of our model by thoroughly exploring the range of appearances that it can produce. The full article can be found [here](https://graphics.unizar.es/projects/CosmeticsAppearance_2024/).
 
-[We propose a practical appearance model for foundation cosmetics that can be stacked on top of human skin. Left: Render of a
+![(We propose a practical appearance model for foundation cosmetics that can be stacked on top of human skin. Left: Render of a
 white female character skin without makeup. Middle: We apply a foundation layer with a matte finish, which reduces the specular highlights,
 especially visible in the eye region and next to the nose, and slightly changes the skin color. Right: We apply an additional shinier layer
-adding a reddish tint to the cheek](teaser.jpeg)
+adding a reddish tint to the cheek)](teaser.jpeg)
+
+
+
 ## Installation
 
 Installation steps:
 
 - Install the jsoncpp library using `sudo apt-get install libjsoncpp-dev`
 - Install the required python packages using: `pip install -r /path/to/requirements.txt`
-- Download PBRT-v4 from the (Github repository)[https://github.com/mmp/pbrt-v4].
+- Download PBRT-v4 from the [Github repository](https://github.com/mmp/pbrt-v4).
 - Copy the content of the folder 'pbrt-v4-plugin/ and past it on the folder 'pbrt-v4' making sure to overwrite all duplicated files. Then compile the pbrt folder as usual: `mkdir build` </br> `cd build` </br> `cmake ..` </br> `make -j20` </br>
-- The scenes used for figure can be found (here)[https://github.com/mmp/pbrt-v4] 
+- The scenes used to render the figures can be downloaded [here](https://nas-graphics.unizar.es/s/j9P5NedMpMzbRSG//download?path=/&files=scenes.zip) 
 
 ## Figures reproduction
 
