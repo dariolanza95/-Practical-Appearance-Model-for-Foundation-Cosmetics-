@@ -9,7 +9,8 @@ white female character skin without makeup. Middle: We apply a foundation layer 
 especially visible in the eye region and next to the nose, and slightly changes the skin color. Right: We apply an additional shinier layer
 adding a reddish tint to the cheek)](teaser.jpeg)
 
-
+## Authors
+### **Dario Lanza**, Juan Raúl Padrón-Griffe, Alina Pranovich, Adolfo Muñoz, Jeppe Revall Frisvad and Adrián Jarabo
 
 ## Installation
 
